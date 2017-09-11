@@ -1,1 +1,1 @@
-web: vendor/bin/heroku-php-apache2 src/
+web: node --debug=5858 index.js
