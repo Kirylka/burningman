@@ -498,12 +498,8 @@ p{
 
 /* Section 1
  * --------------------------------------- */
-.ms-left .section1 .fullscreen{
-	top:23%;
-}
-
-.section1 img {
-	margin: 24px 0 15px 0;
+.ms-right .section1 img{
+	float: right;
 }
 
 

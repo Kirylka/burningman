@@ -14,6 +14,7 @@
 
 	<link rel="stylesheet" type="text/css" href="css/jquery.multiscroll.css"/>
 	<link rel="stylesheet" type="text/css" href="css/main.css"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
 	<!--[if lte IE 9]>
 	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a
@@ -33,7 +34,7 @@ https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"
 	<script type="text/javascript">
 		$(document).ready(function () {
 			$('#myContainer').multiscroll({
-				sectionsColor: ['#5ad0ff', '#000', '#ffdd00'],
+				sectionsColor: ['#fee8a9', '#000', '#ffdd00'],
 				menu: '#menu',
 				navigation: true,
 
@@ -52,36 +53,57 @@ https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"
 </head>
 <body>
 
-<div id="myContainer">
+<div style="padding-top: 1%; background-color:white;     position: fixed;     height: 0;
+    width: 100%;
+    top: 0;
+    left: 0;
+        z-index: 200;" class="top"></div>
+<div style="width: 1%; background-color:white; position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 101;" class="left"></div>
+<div style="left: auto; background-color:white;
+    right: 0; position: absolute;
+    height: 100%;     top: 0;     width: 1%;
+    z-index: 101;" class="right"></div>
+<div style="padding-top: 1%; position: fixed; height: 0;
+    width: 100%;
+    background-color:white;
+    bottom: 0;
+    left: 0; z-index: 200;" class="bottom"></div>
+<div class="inner">
+	<div id="myContainer">
 
-	<div class="ms-left">
-		<div class="ms-section section1">
-			<div class="content">
+		<div class="ms-left">
+			<div class="ms-section section1">
+				<div class="content">
+				</div>
+			</div>
+
+			<div class="ms-section section2">
+				<div class="content">
+
+				</div>
+			</div>
+
+			<div class="ms-section section3">
+				<div class="content">
+
+				</div>
 			</div>
 		</div>
 
-		<div class="ms-section section2">
-			<div class="content">
-
+		<div class="ms-right">
+			<div class="ms-section section1">
+				<img class="img-fluid" src="https://scontent.fhrk1-1.fna.fbcdn.net/v/t1.0-9/21751371_1672700492751175_1332166504844616501_n.jpg?oh=8366ca6fac95ac6d4ab675dc43f178b6&oe=5A17C63A"/>
 			</div>
-		</div>
 
-		<div class="ms-section section3">
-			<div class="content">
-
+			<div class="ms-section section2">
 			</div>
-		</div>
-	</div>
 
-	<div class="ms-right">
-		<div class="ms-section section1">
-			<img src="https://scontent.fhrk1-1.fna.fbcdn.net/v/t1.0-9/21751371_1672700492751175_1332166504844616501_n.jpg?oh=8366ca6fac95ac6d4ab675dc43f178b6&oe=5A17C63A"/>
-		</div>
-
-		<div class="ms-section section2">
-		</div>
-
-		<div class="ms-section section3">
+			<div class="ms-section section3">
+			</div>
 		</div>
 	</div>
 </div>
