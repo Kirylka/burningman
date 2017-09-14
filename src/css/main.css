@@ -467,7 +467,7 @@ p{
 	font-size: 1.5em;
 }
 .graduated{
-	background-image: url(imgs/graduated.png);
+	/*background-image: url(imgs/graduated.png);*/
 	background-size: cover;
 	top:0;
 }
@@ -513,7 +513,7 @@ p{
 	background:#000;
 }
 .ms-right .section2{
-	background-image: url(imgs/tiger.jpg);
+	/*background-image: url(imgs/tiger.jpg);*/
 	background-repeat: no-repeat;
 	background-position: right;
 	background-size: auto 100%;
@@ -560,7 +560,7 @@ p{
 	background-image: -o-linear-gradient(top, #e81639, #7d0014);
 }
 .section3 .coffee{
-	background-image: url(imgs/coffee.png);
+	/*background-image: url(imgs/coffee.png);*/
 	background-repeat: no-repeat;
 	background-size: 90% auto;
 	background-position: 100% 66%;
