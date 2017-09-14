@@ -1,31 +1,95 @@
-<!doctype html>
-<html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 
-        <link rel="manifest" href="site.webmanifest">
-        <link rel="apple-touch-icon" href="icon.png">
-        <!-- Place favicon.ico in the root directory -->
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Фантастическое искусство и люди на фестивале Burning Man</title>
+	<meta name="author" content="Kiryl Anoshka" />
+	<meta name="description" content="Фантастическое искусство и люди на фестивале Burning Man" />
+	<meta name="keywords"  content="burning man" />
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-    </head>
-    <body>
-        <!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
+	<link rel="manifest" href="site.webmanifest">
+	<link rel="apple-touch-icon" href="icon.png">
 
-        <!-- Add your site or application content here -->
-        <p>Burning Man Visual Story</p>
-        <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/jquery.multiscroll.css" />
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
 
-    </body>
+	<!--[if lte IE 9]>
+	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+	<![endif]-->
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+	<script
+			src="https://code.jquery.com/jquery-3.2.1.min.js"
+			integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+			crossorigin="anonymous"></script>
+	<script type="text/javascript" src="
+https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+
+	<script type="text/javascript" src="js/jquery.multiscroll.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#myContainer').multiscroll({
+				sectionsColor: ['#5ad0ff', '#000', '#ffdd00'],
+				anchors: ['first', 'second', 'third'],
+				menu: '#menu',
+				navigation: true,
+				navigationTooltips: ['First', 'Second', 'Third'],
+
+				afterLoad: function(anchor, index){
+					if(index==2 || index == 3){
+						$('#infoMenu li a').css('color', '#f2f2f2');
+					}
+					if(index==1){
+						$('#infoMenu li a').css('color', '#333');
+					}
+				}
+			});
+		});
+	</script>
+
+</head>
+<body>
+
+<div id="myContainer">
+
+	<div class="ms-left">
+		<div class="ms-section section1">
+			<div class="content">
+				</div>
+		</div>
+
+		<div class="ms-section section2">
+			<div class="content">
+
+			</div>
+		</div>
+
+		<div class="ms-section section3">
+			<div class="content">
+
+			</div>
+		</div>
+	</div>
+
+	<div class="ms-right">
+		<div class="ms-section section1">
+			<img src="https://scontent.fhrk1-1.fna.fbcdn.net/v/t1.0-9/21751371_1672700492751175_1332166504844616501_n.jpg?oh=8366ca6fac95ac6d4ab675dc43f178b6&oe=5A17C63A"/>
+		</div>
+
+		<div class="ms-section section2">
+		</div>
+
+		<div class="ms-section section3">
+			<div class="coffee"></div>
+		</div>
+	</div>
+</div>
+
+
+
+</body>
 </html>
