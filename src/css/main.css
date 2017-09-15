@@ -477,9 +477,10 @@ p{
 }
 
 .right-text-container {
-    color: #464c4d;;
+    color: whitesmoke;
     position: absolute;
     top: 30%;
+    background-color: rgba(0,0,0,.5);
     padding: 4em;
     right: 13%;
 }
@@ -509,10 +510,19 @@ p{
     background-image: url(https://scontent.fhrk1-1.fna.fbcdn.net/v/t31.0-8/21083408_665663906973138_5105852547338477597_o.jpg?oh=59fe59362943aaf76f8d999a880c93cc&oe=5A5B06E2);
 }
 
-.ms-left .section2 {
-    background-image: url(https://scontent-frt3-2.xx.fbcdn.net/v/t1.0-9/21740086_875262115969382_8465600867962596100_n.jpg?oh=5d4015675807576d006694cee1c49b5e&oe=5A4DE539);
+.ms-right .section2 {
     text-align: left;
-    filter: blur(4px);
+    background-position: 0 center!important;
+    background-size: cover;
+    height: 100%;
+    /*filter: blur(5px);*/
+    background-image: url(https://scontent-frt3-2.xx.fbcdn.net/v/t1.0-9/21433199_872945156201078_4762210530988299946_n.jpg?oh=63f92f3a0ef2b30dae25b6f8b3759f11&oe=5A53A157);
+}
+
+.ms-left .section2 {
+    background-image: url(https://scontent-frt3-2.xx.fbcdn.net/v/t1.0-9/21751492_10156918987654896_3432200405249296862_n.jpg?oh=09ec440e7b19875e40e1016a09fda49e&oe=5A5D7108);
+    text-align: left;
+    /*filter: blur(4px);*/
     background-position: 0 center!important;
     background-size: cover;
     height: 100%;
