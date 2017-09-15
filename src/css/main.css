@@ -510,8 +510,9 @@ p{
 }
 
 .ms-left .section2 {
-    background-image: url(https://scontent-frt3-2.xx.fbcdn.net/v/t1.0-9/21462836_872945159534411_9198727429817667129_n.jpg?oh=f830f0452aeff268c41203c70eb1e9e1&oe=5A149708);
+    background-image: url(https://scontent-frt3-2.xx.fbcdn.net/v/t1.0-9/21740086_875262115969382_8465600867962596100_n.jpg?oh=5d4015675807576d006694cee1c49b5e&oe=5A4DE539);
     text-align: left;
+    filter: blur(4px);
     background-position: 0 center!important;
     background-size: cover;
     height: 100%;
