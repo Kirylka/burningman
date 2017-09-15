@@ -12,6 +12,7 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+    font-family: 'Rubik', sans-serif !important;
 }
 
 /*
@@ -453,7 +454,6 @@ textarea {
 /* Custom CSS
  * --------------------------------------- */
 body{
-	font-family: arial,helvetica;
 	color: #333;
 	color: rgba(0,0,0,0.5);
 }
@@ -464,7 +464,8 @@ h2{
 	font-size: 1.6em;
 }
 p{
-	font-size: 1.5em;
+	font-size: 1em;
+    font-family: 'Rubik', sans-serif
 }
 .graduated{
 	/*background-image: url(imgs/graduated.png);*/
