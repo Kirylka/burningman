@@ -548,3 +548,25 @@ p{
 	background-image: url(https://openreporter.ru/local/images/bm8.jpg);
 	height: 100%
 }
+
+/* Section 8
+ * --------------------------------------- */
+
+.section8 .left-text-container {
+	color: black;
+	position: absolute;
+	top: 10%;
+	/*background-color: rgba(120, 56, 18, 0.4);*/
+	padding: 1em;
+	right: 10%;
+}
+
+.section8 .right-text-container {
+	color: black;
+	position: absolute;
+	top: 40%;
+	font-size: 18px;
+	background-color: transparent;
+	padding: 2em;
+	right: 13%;
+}
