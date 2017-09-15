@@ -465,7 +465,7 @@ h2{
 	font-size: 1.6em;
 }
 p{
-	font-size: 1em;
+	font-size: 1.05em;
     font-family: 'Rubik', sans-serif
 }
 .left-text-container {
@@ -477,10 +477,10 @@ p{
 }
 
 .right-text-container {
-    color: whitesmoke;
+    color: white;
     position: absolute;
     top: 30%;
-    background-color: rgba(0,0,0,.5);
+    background-color: rgba(80,97,209,0.8);
     padding: 4em;
     right: 13%;
 }
@@ -510,13 +510,12 @@ p{
     background-image: url(https://scontent.fhrk1-1.fna.fbcdn.net/v/t31.0-8/21083408_665663906973138_5105852547338477597_o.jpg?oh=59fe59362943aaf76f8d999a880c93cc&oe=5A5B06E2);
 }
 
-.ms-right .section2 {
-    text-align: left;
+.ms-right .section2 .background-right {
+    /*filter: blur(5px);*/
     background-position: 0 center!important;
     background-size: cover;
-    height: 100%;
-    /*filter: blur(5px);*/
-    background-image: url(https://scontent-frt3-2.xx.fbcdn.net/v/t1.0-9/21433199_872945156201078_4762210530988299946_n.jpg?oh=63f92f3a0ef2b30dae25b6f8b3759f11&oe=5A53A157);
+    background-image: url(https://scontent-frt3-2.xx.fbcdn.net/v/t1.0-9/21462836_872945159534411_9198727429817667129_n.jpg?oh=f830f0452aeff268c41203c70eb1e9e1&oe=5A149708);
+    height: 100%
 }
 
 .ms-left .section2 {
