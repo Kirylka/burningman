@@ -475,6 +475,14 @@ p{
     padding: 4em;
     left: 3%;
 }
+
+.right-text-container {
+    color: #464c4d;;
+    position: absolute;
+    top: 25%;
+    padding: 4em;
+    right: 13%;
+}
 .dotted-line {
     border-bottom-width: 0px;
     border-color: #6c6965;
