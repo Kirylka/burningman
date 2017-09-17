@@ -310,6 +310,14 @@ p{
     padding: 4em;
     right: 13%;
 }
+
+@media only screen and (min-height: 400px) {
+	.right-text-container {
+		top: 10%;
+	}
+
+}
+
 .dotted-line {
     border-bottom-width: 0px;
     border-color: #6c6965;
@@ -569,6 +577,18 @@ p{
 	/*background-color: rgba(120, 56, 18, 0.4);*/
 	padding: 1em;
 	right: 10%;
+}
+
+@media only screen and (min-height: 400px) {
+	.section8 .left-text-container {
+		top: 3%;
+		padding: 1em;
+		padding-top: 0;
+	}
+
+	.section8 .left-text-container div {
+		margin-bottom: 10px !important;
+	}
 }
 
 .section8 .right-text-container {
