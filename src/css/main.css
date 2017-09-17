@@ -528,9 +528,19 @@ p{
 	color: black;
 	position: absolute;
 	top: 30%;
-	/*background-color: rgba(120, 56, 18, 0.4);*/
 	padding: 4em;
 	right: 31%;
+}
+
+@media only screen and (min-height: 400px) {
+	.section7 .left-text-container {
+		color: black;
+		position: absolute;
+		top: 10%;
+		padding: 4em;
+		right: 31%;
+	}
+
 }
 
 .section7 .right-text-container {
